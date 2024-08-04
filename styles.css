@@ -1,1 +1,56 @@
 /* your code here */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: green;
+}
+.product{
+	background-color: white;
+	padding: 20px 0;
+	display: flex;
+	width: 400px;
+	margin: auto;
+}
+ul{
+	display: flex;
+	list-style: none;
+	gap: 5px;
+}
+ul img{
+	width: 25px;
+}
+.product__photo{
+	width: 300px;
+	position: relative;
+	left: -30px;
+	background-color: white;
+}
+.photo-container{
+	
+}
+.photo-main{
+	background-color: lightgreen;
+	width: 200px;
+}
+.photo-main img{
+	width: 200px;
+	position: relative;
+	left: -30px
+}
+.controls{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
